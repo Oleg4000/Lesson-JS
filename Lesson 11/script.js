@@ -7,8 +7,8 @@ const personalMovieDB = {
   private: false,
 };
 const a = prompt("Один З останніх переглянутих фільмів?", ""),
-  b = prompt("Наскільки ви йоо оціните?", ""),
-  c = +prompt("How much films you watch?", ""),
+  b = prompt("Наскільки ви його оціните?", ""),
+  c = +prompt("Один З останніх переглянутих фільмів?", ""),
   d = prompt("Наскільки ви йоо оціните?", "");
 
 personalMovieDB.movies[a] = b;
