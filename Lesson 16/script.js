@@ -23,5 +23,13 @@ for (let i = 0; i < 2; i++) {
     i--;
   }
 }
-
+if (personalMovieDB < 10) {
+  console.log("Дивився мало фільмів");
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+  console.log("Ви класичний глядач");
+} else if (personalMovieDB.count >= 30) {
+  console.log("Ви кіноман");
+} else {
+  console.log("Error");
+}
 console.log(personalMovieDB);
