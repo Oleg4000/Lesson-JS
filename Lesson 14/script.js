@@ -10,8 +10,26 @@ let num = 50;
   num++;
 } while (num < 55); */
 
-for (let i = 1; i < 10; i++) {
-  if (i === 6) {
+for (let i = 5; i < 11; i++) {
+  if (i === 4) {
+    //break;
+    continue;
+  }
+
+  console.log(i);
+}
+
+for (let i = 5; i < 11; i++) {
+  if (i === 11) {
+    //break;
+    continue;
+  }
+
+  console.log(i);
+}
+
+for (let i = 5; i < 11; i++) {
+  if (i === 11) {
     //break;
     continue;
   }
