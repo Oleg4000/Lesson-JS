@@ -31,4 +31,6 @@ const logger = function () {
 logger();
 
 //стрілочна ф-ція
-const calc = (a, b) => a + b;
+const calc = (a, b) => {
+  return a + b;
+};
