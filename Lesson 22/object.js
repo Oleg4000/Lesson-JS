@@ -16,7 +16,7 @@ const options ={
 options.makeTest();
 
 /*Деструктуризація обєкта */
-const {border, bacground} = options.collors;//Деструктуризація обєкта
+const {border, bacground} = options.collors;//Деструктуризація обєкта для виклику обєктів з великих ф-цій
 console.log(border,bacground);
 
 //console.log(Object.keys(options).length);//підрахунок обєктів в масиві
@@ -28,7 +28,7 @@ console.log(border,bacground);
 //delete options.name;
 
 //console.log(options);
-/* let counter =0;
+/*  let counter =0;
 for (let key in options){
 	if (typeof(options [key])==='object'){
 		for (let i in options [key]){
@@ -41,5 +41,5 @@ for (let key in options){
 	}
 }
 
-console.log(counter); */
-
+console.log(counter); 
+ */
