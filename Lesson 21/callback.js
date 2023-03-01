@@ -14,3 +14,17 @@ function second() {
 
 first();
 second();
+
+
+// eslint-disable-next-line no-unused-vars
+function learnJS(lang, callback){
+	console.log(`I learn: ${lang}`);
+	callback();
+}
+
+function done(){
+	console.log('Я пройшов урок');
+}
+
+
+learnJS('JavaScript', done);
